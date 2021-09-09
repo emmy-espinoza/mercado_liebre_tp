@@ -93,7 +93,7 @@ const controller = {
 				product.discount = discount,
 				product.category = category,
 				product.description = description,
-				products.image = req.file ? req.file.filename : product.image
+				product.image = req.file ? req.file.filename : product.image
 			}
 		})
 
